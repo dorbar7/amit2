@@ -46,4 +46,6 @@ jobs:
        run:  docker run -d -p 3000:3000 dorbar7/app:amit2
       -
        name: Test
-       run: bash test.sh   
+       run: |
+        docker ps
+        bash test.sh   
