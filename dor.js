@@ -3,7 +3,7 @@ const app = express()
 const port = 3000
 
 let movie ={ 
- name: `amit1`,
+ name: `amit0`,
  time :"10 min"
 }
 
