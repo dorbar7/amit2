@@ -48,6 +48,4 @@ jobs:
         sleep 5
       -
        name: Test
-       run: |
-        docker ps
-        bash test.sh   
+       run:  bash test.sh   
