@@ -40,4 +40,4 @@ jobs:
         uses: docker/build-push-action@v6
         with:
           push: true
-          tags: user/app:dorbar7
+          tags: dorbar7/app:amit2
