@@ -41,3 +41,9 @@ jobs:
         with:
           push: true
           tags: dorbar7/app:amit2
+      - 
+       name: Run test docker
+       run:  docker run -d -p 3000:3000 dorbar7/app:amit2
+      -
+       name: Test
+       run: bash test.sh   
