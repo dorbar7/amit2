@@ -1,3 +1,4 @@
+curl -s localhost:3000
 result=$(curl -s localhost:3000)
 echo $result
 if [[ $result == *"amit0"* ]]; then
